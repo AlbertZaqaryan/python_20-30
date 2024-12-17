@@ -11,4 +11,5 @@
 # mylist = [7, 4, 5, 6, 9, 8]
 # print(sum(mylist) / len(mylist))
 
-print(10)
+for i in range(10):
+    print('Python team')
