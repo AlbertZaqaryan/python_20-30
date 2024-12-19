@@ -1,4 +1,4 @@
-Պ = 3.15
-
-def matem():
-    pi = 3.15
+def armat(tiv:int|float) -> float:
+    '''Ֆունկցիային տվեք թիվ
+    ֆունկցիան կվերադարձնի թվի արմատը'''
+    return tiv ** 0.5
