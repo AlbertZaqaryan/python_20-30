@@ -127,3 +127,9 @@
 #     return sum(day_list[:month - 1]) + day
 # print(calendar(2024, 3, 15))
 # ----------------------------------------------
+# import random
+
+# def numbers():
+#     letters = 'QWERTYUIOPASDFGHJKLZXCVBNM'
+#     return f'{random.randint(0, 9)}{random.randint(0, 9)} {random.choice(letters)}{random.choice(letters)} {random.randint(0, 9)}{random.randint(0, 9)}{random.randint(0, 9)}'
+# print(numbers())
