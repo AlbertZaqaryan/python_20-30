@@ -35,3 +35,22 @@
 # number = int(input('Enter number: '))
 # print(x(number))
 
+
+# def magic_date(day, month, year):
+#     month_dict = {
+#         'hunvar':1,
+#         'petrvar':2,
+#         'mart':3,
+#         'april':4,
+#         'mayis':5,
+#         'hunis':6,
+#         'hulis':7,
+#         'ogostos':8,
+#         'september':9,
+#         'hoktember':10,
+#         'noyember':11,
+#         'dektember':12,
+#     }
+#     return day * month_dict[month] == year % 100
+# print(magic_date(10, 'ogostos', 1980))
+
