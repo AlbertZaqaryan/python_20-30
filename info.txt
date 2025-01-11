@@ -1,0 +1,16 @@
+1. This article doesn’t attempt to 
+2. Սերգոն սիրում է ֆուտբոլ։
+3. provide a complete specification
+4. of all new f7846eatures, but instead
+5. gives a convenient overview. For 
+6. full details refer to the documentation,
+7. such as the 12Library Reference and 
+8. Language Reference. To understand 
+9. the complete implementation and 
+10. design rationale for a change, 
+11. refer to the PE8P for a particular 
+12. new feature; but note that PEPs usually
+13. are not kept up-to-date once a feature
+14. has b6een fully implemented. See Porting 
+15. to Python 3.13 for guidance on upgrading 
+16. from earlier versions of Python.

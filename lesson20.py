@@ -87,3 +87,48 @@
 #     else:
 #         return n * fact(n - 1)
 # print(fact(5))
+import random
+
+
+def func1():
+    password = ''
+    for i in range(0, random.randint(1, 16)):
+        password += chr(random.randint(33, 126))
+    return password
+
+def func2(password):
+    if len(password) < 8:
+        return False
+    else:
+        char_count = 0
+        number_count = 0
+        upper_case_count = 0
+        for i in password:
+            if i.isupper():
+                upper_case_count += 1
+            elif i.isdigit():
+                number_count += 1
+            elif i.isalpha():
+                continue
+            else:
+                char_count += 1
+        if char_count >= 1 and number_count >= 1 and upper_case_count >= 1:
+            return True
+        else:
+            return False
+
+
+def func3(): 
+    count = 1
+    while True:
+        mypassword = func1()
+        pass_ = func2(mypassword)
+        print(mypassword)
+        if pass_ == True:
+            break
+        else:
+            count += 1
+    return count
+
+
+print(func3())
